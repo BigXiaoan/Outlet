@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>yzm</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.yzm</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>main</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.main</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>preson</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.preson</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Pserson_detail</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.Pserson_detail</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateInf</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.Update.Data.UpdateInf</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Adminator</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.Adminator</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserDelete</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.UserDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserUpdateInf</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.Update.Data.UserUpdateInf</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectUserList</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.SelectUserList</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectProduct</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.Update.Data.SelectProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelProduct</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.Update.Data.DelProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdProduct</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.Update.Data.UpdProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddProduct</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.Update.Data.AddProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductInf</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.ProductInf</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Telphone</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.Telphone</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Milk</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.Milk</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>index</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.index</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>shop</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.shop</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderInf</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.OrderInf</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Orderlist</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.wu.cn.Orderlist</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>yzm</servlet-name>
+    <url-pattern>/servlet/yzm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/servlet/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>main</servlet-name>
+    <url-pattern>/servlet/main</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>preson</servlet-name>
+    <url-pattern>/servlet/preson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Pserson_detail</servlet-name>
+    <url-pattern>/servlet/Pserson_detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateInf</servlet-name>
+    <url-pattern>/servlet/UpdateInf</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Adminator</servlet-name>
+    <url-pattern>/servlet/Adminator</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDelete</servlet-name>
+    <url-pattern>/servlet/UserDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserUpdateInf</servlet-name>
+    <url-pattern>/servlet/UserUpdateInf</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectUserList</servlet-name>
+    <url-pattern>/servlet/SelectUserList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectProduct</servlet-name>
+    <url-pattern>/servlet/SelectProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelProduct</servlet-name>
+    <url-pattern>/servlet/DelProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdProduct</servlet-name>
+    <url-pattern>/servlet/UpdProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProduct</servlet-name>
+    <url-pattern>/servlet/AddProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductInf</servlet-name>
+    <url-pattern>/servlet/ProductInf</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Telphone</servlet-name>
+    <url-pattern>/servlet/Telphone</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Milk</servlet-name>
+    <url-pattern>/servlet/Milk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/servlet/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shop</servlet-name>
+    <url-pattern>/servlet/shop</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderInf</servlet-name>
+    <url-pattern>/servlet/OrderInf</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Orderlist</servlet-name>
+    <url-pattern>/servlet/Orderlist</url-pattern>
+  </servlet-mapping>
+  
+
+ 
+
+</web-app>

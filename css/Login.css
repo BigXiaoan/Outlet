@@ -1,0 +1,101 @@
+[genuitec-file-id="wc1-2"],[genuitec-lp-path="/Outlet/WebRoot/css/Login.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+@CHARSET "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+	
+	outline:none;
+}
+body{
+	font-size:16px;
+	font-family:"微软雅黑";
+}
+a:link,a:visited{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	text-decoration:none;
+}
+.head{
+	width:1200px;
+	height:100px;
+	line-height:66px;
+	margin:0 auto;
+}
+h2{
+	float:left;
+}
+.head .right{
+	float:right;
+	
+}
+a{
+	display:inline-block;
+	width:100px;
+	float:left;
+}
+.head li{
+	float:left;
+}
+h2 span{
+	padding-right:8px;
+	color:#B90000;
+}
+#s{
+	color:#999;
+}
+.right span{
+	color:#F00;
+}
+.content{	
+	height:350px;
+	background-color:#fe6c21;
+}
+.t{
+    margin: auto;
+    width:80px;
+    height: 320px;
+	top:120px;
+    right: 850px;
+    position: absolute;
+    border-radius: 15px;
+    background: rgba(216,216,216,0.5);      /*设置form表单透明度*/
+    text-align: center;
+    overflow: hidden;
+	white-space: nowrap;    /*设置表格内容不换行，自动撑开表格宽度*/
+}
+.t .right{
+	width:320px;
+	height:38px;
+	border:1px solid #5c5c5c;
+	margin-right: 80px;
+}
+.t .image{
+	top:230px;
+    right:80px;
+    position: absolute;
+}
+.t .submit{
+	width:80px;
+	height:30px;
+	top:280px;
+    right:200px;
+    position: absolute;
+	
+}
+.foot{
+	width:100%;
+	height:80px;
+	margin:0 auto;
+	color:brack;
+	text-align:center;
+	line-height:80px;
+	font-size:20px;
+}

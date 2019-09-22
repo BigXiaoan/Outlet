@@ -1,0 +1,344 @@
+[genuitec-file-id="wc1-5"],[genuitec-lp-path="/Outlet/WebRoot/css/main.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+	outline:none;
+}
+body{
+	font-size:16px;
+	font-family:"微软雅黑";
+}
+a:link,a:visited{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	text-decoration:none;
+}
+.site-nav{
+	width:100%;
+	height:25px;
+	background:#CCC;
+	font-size:12px;
+	margin:0 auto;
+	color:#626262;	
+}
+.site-nav a{
+	color:#626262;
+}
+.site-nav li{
+	float:left;
+}
+.h-left p{
+	float:left;
+	/* padding:5px 400px; */
+	padding: 5px;
+}
+.nav{
+	float:right;
+	padding:5px ;
+	
+}
+.h-right a{
+	width:100px;
+	padding:0 5px;
+}
+.header{
+	width:100%;
+	height:100px;
+	margin-top:20px;
+}
+.header-extra{
+	/* position:absolute; */
+	float:left;
+	left:350px;
+		
+}
+.mall-search{
+	/* position:absolute; */
+	width:710px;
+	height:80px;
+	right:500px;
+	float:right;
+	margin:15px;
+}
+
+#select{
+	width:181px; 
+	height:54px;
+	background-color:#FF0036; 
+	cursor:pointer; 
+	float:right;
+	
+}
+#text{
+	width:525px; 
+	height:50px; 
+	background-color:#FFFFFF; 
+	border:2px solid #FF0036; 
+	padding:0; 
+	text-indent:5px; 
+	cursor:text; 
+	float:left;
+}
+#hot-query{
+	width:625px;
+	height:25px;
+	marin:0 auto;
+	
+}
+#hot-query li {
+	float:left;
+	display:inline;
+ 	width:67px;
+	height:30px;
+	text-align:center;
+}
+#hot-query li .a{
+	color:#FF0036;
+}
+#hot-query li .b{
+	color:#626262;
+}
+.inner-con2{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	background:#FF0036;
+	margin-top:30px;
+	
+	
+}
+.in_nav{
+	width:95%;
+	height:40px;
+	margin:0 auto;
+}
+.in_nav li{
+	width: 10%;
+	display:inline;
+ 	width:100px;
+	height:40px;
+	text-align:center;
+	float:left;
+}
+.in_nav a{
+	color:#FFF;
+}
+.text{
+	width:200px;
+	height:40px;
+	text-align:center;
+	color:#FFF;
+	background:#B40501;
+}
+.text{
+	width: 20%;
+	float:left;
+	/* position:relative; */
+	left:350px;
+}
+.con{
+	width: 80%;
+	float:left;
+	/* position:relative; */
+	left:350px;
+}
+.banner_mid{
+	width: 100%;
+	clip: rect(0px,60px,200px,0px);
+}
+.banner{
+	width:80%;
+	text-align: center;
+	vertical-align: middle;
+	height:550px;
+	poition:absolute;
+	overflow:hidden;
+	float:right;
+	margin: 0 auto 0 auto;
+}
+.one{
+	
+	/* position:absolute ; */
+	
+	left:0;
+	top:0;
+	/* margin-left:-960px; */
+	/* width: 80%; */
+	height: 526px;
+}
+.banner .banner_pic .pic{display:none;}
+.banner .banner_pic .current{display:block;}
+.banner ol{
+	position:relative;
+	left:50%;
+	top:80%;
+	margin-left:-62px;
+}
+.banner ol .but{
+	float:left;
+	width:28px;
+	height:1px;
+	border:1px solid #d6d6d6;
+	margin-right:20px;
+}
+.banner ol li{
+	cursor:pointer;
+}
+.banner ol .current{
+	background:#90d1d5;
+	float:left;
+	width:28px;
+	height:1px;
+	border:1px solid #90d1d5;
+	margin-right:20px;
+}
+.banner_s {
+	/* position: relative; */
+	/* width: 198px; */
+	width: 20%;
+    height: 524px;
+   	border: 1px solid #333;
+    background: #191919;
+ 
+	left:350px;
+	top:-550px;
+	filter:alpha(Opacity=60);
+	-moz-opacity:0.6;
+	opacity: 0.6; 
+	
+}
+.normal-nav li{
+	height:30px;
+	padding: 5px 0 5px 40px
+}
+.normal-nav li a{
+	font:12px;
+	color:#FFF;
+}
+h2{
+	width:259px;
+	heigth:45px;
+	background:#ea6c46;
+	font-size:20px;
+	font-weight:100px;
+	line-height:45px;
+	text-align:center;
+	color:#fff;
+	
+}
+
+
+
+.auto-mid{
+	width: 80%;
+	min-width: 1328px;
+	margin: 0 auto 0 auto;
+}
+
+.img img{
+	width: 24%;
+}
+.conner{
+	width:100%;
+	height:920px;
+}
+.goods {
+	margin:0 0 20px 0 ;
+	padding: 18px;
+	border-radius:15px;
+	width: 22%;
+	/* box-shadow:0 0 13px 3px rgba(0, 0, 0, .5); */
+	border:1px solid rgba(0, 0, 0, .3);
+	/* border: 200px; */
+	float: left;
+	
+	
+}
+.price{
+	display: inline-block;
+    width: 100%;
+    height: 25px;
+	color:rgb(255, 76, 6);
+	font-weight: 800;
+	text-align:center;
+	padding-top:10px;
+	
+}
+.goods img{
+	
+	width: 100%;
+	border:2px solid rgba(0, 0, 0, .5);
+	
+	margin: 0 auto 0 auto ;
+}
+.bond-con2{
+	width:100%;
+	height:35px;
+	line-height:40px;
+	background:rgb(179, 9, 9);
+	margin-top:5px;
+	z-index:20;
+}
+.goods_font{
+	
+	margin:10px 0 0 5px;
+	
+}
+.hot_con{  
+    text-align: right;
+	margin:10px;
+}
+.hot_con a{
+	display: inline-block;
+    margin: 5px 10px;
+}
+.help{
+	width:98%;
+	height:340px;
+	background:#F4F4F4;
+}
+.help dl{
+	float: left;
+    width: 186px;
+    padding: 20px 0  0 150px;
+	
+}
+.help dl dt{
+	color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.help dl dd{
+	text-align: left;
+}
+.help dl a{
+	width: 100px;
+    overflow: hidden;
+    text-align: left;
+    height: 20px;
+    line-height: 30px;
+    color: #8b8b8b;
+	padding-right:105px;
+	
+}
+.floot{
+	width:98%;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	background:#000;
+	color:#FFF;
+}
+	

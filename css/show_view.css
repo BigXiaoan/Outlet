@@ -1,0 +1,68 @@
+[genuitec-file-id="wc1-6"],[genuitec-lp-path="/Outlet/WebRoot/css/show_view.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+ @charset "utf-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    list-style:none;
+}
+body{
+    font-size:16px;
+    font-family:"微软雅黑";
+}
+     a:link,a:visited{
+        text-decoration:none;
+        color: #FFFFFF;
+    }
+    a:hover{
+        color: #000000;
+        text-decoration: underline;
+    }
+    li{
+        list-style: none;
+    }
+    .head{
+        background: #5151A2;
+        color: #00000;
+        height: 150px;
+        width: 100%;
+    }
+    .name_two{
+        text-align: right;
+        line-height: 75px;
+    }
+    .name_one{
+        font-size: 35px;
+        text-align: center;
+        line-height: 100px;
+    }
+      .conters{
+        background: #7373B9;
+        float: left;
+        width: 15%;
+        height: 350px;
+        border:2px solid #000000;
+        text-align: center;
+        
+    }
+    .AAAA{
+        font-size: 20px;
+        color: #6C3365;
+    }
+    .Form_one{
+        float: left;
+        width: 84%;
+        height: 350px;
+        margin: 0;
+    }
+    .Introduction_one{
+
+        width:50%; 
+        height:150px; 
+        border:1px solid #000000;
+        margin: 100px 600px 100px 300px; 
+            }
